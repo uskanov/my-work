@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-Black.woff2);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-BoldItalic.woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-SemiBold.woff2);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Trebuchet';
+    src: url(../fonts/trebuchet/Trebuchet-BoldItalic.woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Trebuchet';
+    src: url(../fonts/trebuchet/TrebuchetMS-Bold.woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url(../fonts/font-awesome/fa-brands-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url(../fonts/font-awesome/fa-light-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url(../fonts/font-awesome/fa-solid-900.woff2);
+    font-weight: 900;
+}
+
+.fa{
+    font-family: 'Font Awesome';
+    display: inline-block;
+    line-height: 1;
+    font-style: normal;
+}

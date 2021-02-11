@@ -1,0 +1,49 @@
+@media(prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #151437;
+    --primary-text-color: #ffffff;
+  }
+  .logo::before{
+    content: url(../images/logo_dark.png);
+  }
+  .about__motto{
+    background: var(--secondary-background);
+  }
+
+  .footer__link,.footer__link:hover{
+    color: var(--secondary-link-color);
+  }
+}
+
+@media(max-width:1400px){
+  .shape_1{
+    top: -250px;
+  }
+  .shape_2{
+    top: -130px;
+  }
+}
+@media(max-width:1200px){
+  .shape_1{
+    top: -150px;
+  }
+  .shape_2{
+    top: -30px;
+  }
+}
+@media(max-width:992px){
+  .shape_1{
+    top: 250px;
+  }
+}
+@media(max-width:768px){
+  .shape{
+    display: none;
+  }
+  .rectangle{
+    display: none;
+  }
+}
+@media(max-width:576px){
+
+}
